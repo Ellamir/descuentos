@@ -1,0 +1,76 @@
+body {
+font-family: 'Roboto', sans-serif;
+font-weight: 300;
+}
+  verde {
+  background-color: #28a745;
+}
+
+nav img {
+  width: 25%;
+  min-width: 80px;
+}
+.card-body {text-align: left;}
+.card-body p:nth-child(1){font-size: 20pt; color:#000000;}
+.card-body p:nth-child(2){font-size: 16pt; color:#707070;}
+.card-body p:nth-child(3){font-size: 13pt; color:#707070;}
+.card-body i{font-size: 12pt; color:#707070;}
+
+#precios {
+  text-align: right;
+}
+#precios span:nth-child(1){font-size: 16pt; color:#707070; /*text-decoration: line-through;*/ }
+#precios span:nth-child(2){font-size: 30pt; font-weight: 500; color:#28A745;}
+
+
+.card-deck .card {
+/*  display:inline-block;
+
+  font-size:16px; */
+  margin-top: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+  width:33%;
+  min-width:273px;
+}
+
+
+.footer-logo{
+  align-content: center;
+}
+footer img {
+  width: 30%;
+  min-width: 82px;
+  max-width: 205px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  height: auto;
+}
+.footer-bar{
+  padding-top: 53px;
+  padding-bottom: 53px;
+  font-weight: 300;
+}
+.suscribir{
+  font-weight: medium;
+  font-size: 21pt;
+  height: 241px;
+  padding-top: 25px;
+  padding-left: 26px;
+  padding-right: 26px;
+  vertical-align: middle;
+}
+
+@media only screen and (min-width: 600px) {
+  .suscribir{
+    padding-left: 50px;
+    padding-right: 50px;
+height: 200px;
+  }
+}
+@media only screen and (min-width: 600px) {
+footer #email .form-group {
+  display: inline-block;
+  padding-right: 26px;
+  }
+}
